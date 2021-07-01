@@ -11,3 +11,4 @@ git clone https://github.com/AgustinCastellaro/instagram-clone.git
 npm install
 npm start
 ```
+3) Enjoy!
