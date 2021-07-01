@@ -1,0 +1,15 @@
+.App{
+    margin: 0;
+    background: rgb(247, 247, 247);
+}
+
+.app_container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+    padding: 85px 0 0;
+    width: 950px;
+    z-index: 3;
+    
+}

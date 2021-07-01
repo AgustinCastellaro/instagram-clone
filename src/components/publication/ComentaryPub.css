@@ -1,0 +1,36 @@
+.comentary__infoPublication{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid rgb(235, 235, 235);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.comentary__infoPublication img{
+    width: 25px;
+}
+
+.comentary__infoPublication textarea{
+    margin: 0 10px;
+    width: 85%;
+    height: 25px;
+    border: none;
+    background: #fff;
+    resize: none;
+    outline: none;
+}
+
+.comentary__infoPublication button{
+    display: flex;
+    font-weight: 600;
+    color: #0095f6;
+    background: none;
+    border: none;
+}
+
+.comentary__infoPublication button:hover{
+    color: #0083da;
+}

@@ -1,0 +1,29 @@
+.user{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.user img{
+    margin: 0 10px 0 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+.user .name span{
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    word-break: break-all;
+}
+
+.user button{
+    font-size: 12px;
+    font-weight: 600;
+    color: #0095f6;
+    margin: 0 0 0 auto;
+    background: none;
+    border: none;
+}

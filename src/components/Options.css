@@ -1,0 +1,92 @@
+.options{
+    position: sticky;
+    top: 100px;
+    right: 0;
+    margin: 0 0 0 auto;
+    padding: 15px 0;
+    width: 300px;
+    height: 400px;
+}
+.options .profile{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.options .profile img{
+    margin: 0 20px 0 0;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+
+.options .profile .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.options .profile .name .identificator,
+.options .profile .name .username{
+    width: 100%;
+    word-break: break-all;
+}
+
+.options .profile .name .identificator{
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.options .profile .name .userName{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8E8E8E;
+}
+
+.options .profile button{
+    font-size: 14px;
+    font-weight: 600;
+    color: #0095f6;
+    margin: 0 0 0 auto;
+    background: none;
+    border: none;
+}
+
+.options .suggestions{
+    margin: 15px 0;
+    width: 100%;
+}
+
+.options .suggestions .title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.options .suggestions .title span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.options .suggestions .title button{
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+    background: none;
+    border: none;
+}
+
+.options .suggestions .users{
+    width: 100%;
+}
+
+.options .footer{
+    width: 100%;
+}
+
+.options .footer span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #c7c7c7;
+}
