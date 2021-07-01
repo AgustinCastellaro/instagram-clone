@@ -4,9 +4,9 @@ import './User.css';
 function User(props){
     return (
         <div className="user">
-            <img src={process.env.PUBLIC_URL + "/img/users/IMG_id2.jpg"} alt="" />
+            <img src={process.env.PUBLIC_URL + "/img/users/" + props.img} alt="" />
             <div className="name">
-                <span>agus_castellaro</span>
+                <span>{props.name}</span>
             </div>
             <button className="follow" id="follow">Follow</button>
         </div>

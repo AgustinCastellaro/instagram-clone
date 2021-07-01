@@ -19,10 +19,10 @@ function options() {
                     <button className="viewAll" id="viewAll">View all</button>
                 </div>
                 <div className="users">
-                    <User img="IMG_id2.jpg" name="usuario1 usuario1" /> 
-                    <User img="IMG_id2.jpg" name="usuario1 usuario1" /> 
-                    <User img="IMG_id2.jpg" name="usuario1 usuario1" /> 
-                    <User img="IMG_id2.jpg" name="usuario1 usuario1" /> 
+                    <User img="IMG_id2.jpg" name="agus_castellaro" /> 
+                    <User img="IMG_id3.jpg" name="JSmith" /> 
+                    <User img="IMG_id4.jpg" name="juicy.orange40" /> 
+                    <User img="IMG_id5.jpg" name="AxSchwartz99" /> 
                 </div>
             </div>
             <div className="footer">
