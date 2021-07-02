@@ -1,0 +1,32 @@
+@import "../../index.scss";
+.user{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    width: 100%;
+
+    & img{
+        margin: 0 10px 0 0;
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+    }
+
+    &__name{
+        & span{
+            font-size: $fontSize;
+            font-weight: 600;
+            width: 100%;
+            word-break: break-all;
+        }
+    }
+
+    & button{
+        font-size: $fontSize;
+        font-weight: 600;
+        color: $buttonColor;
+        margin: 0 0 0 auto;
+        background: none;
+        border: none;
+    }
+}

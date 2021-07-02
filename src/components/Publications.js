@@ -1,5 +1,5 @@
 import React from 'react';
-import './Publications.css';
+import './sass/publications/Publications.scss';
 import Publication from './Publication';
 
 function Publications() {

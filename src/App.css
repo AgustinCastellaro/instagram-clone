@@ -9,7 +9,17 @@
     position: relative;
     margin: 0 auto;
     padding: 85px 0 0;
-    width: 950px;
+    max-width: 950px;
+    width: 100%;
     z-index: 3;
-    
+}
+
+@media (max-width: 1000px){
+    .pubs_and_histories{
+        margin: 0 auto;
+    }
+
+    .options{
+        display: none;
+    }
 }

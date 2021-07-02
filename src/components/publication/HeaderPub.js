@@ -1,12 +1,16 @@
 import React from 'react';
-import './HeaderPub.css';
+import '../sass/publications/publication/header/Header.scss';
 
 function headerPub(props){
     return(
         <div className="headerPublication">
-            <img src={process.env.PUBLIC_URL + "/img/users/" + props.imageUser} className="imageUser" alt="" />
-            <p className="name">{props.name}</p>
-            <button type="button" className="optionsPub">
+            <a href="#" className="userProfile">
+                <img src={process.env.PUBLIC_URL + "/img/users/" + props.imageUser} className="imageUser" alt="" />
+            </a>
+            <a href="#" className="userProfile">
+                <p className="name">{props.name}</p>
+            </a>
+            <button type="button">
                 <img src={process.env.PUBLIC_URL + "/img/icons/options.svg"} alt="" />
             </button>
         </div>

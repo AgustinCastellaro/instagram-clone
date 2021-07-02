@@ -13,7 +13,7 @@ function App() {
           <Histories />
           <Publications />
         </div>
-        <Options />
+        <Options className="options" />
       </div>
     </div>
   );

@@ -1,13 +1,13 @@
 import React from 'react';
-import './Header.css';
-import Search from './Search';
+import './sass/header/Header.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Search from './Search';
 
 function Header(){
     return (
         <div className="header">
             <nav>
-                <div className="center">
+                <div className="nav__center">
                     <a class="navbar-brand" href="#">
                         <img src={process.env.PUBLIC_URL + "/img/logo/logo.png"} alt="" />
                     </a>
@@ -16,7 +16,7 @@ function Header(){
                             <Search />
                         </li>
                     </ul>
-                    <div className="icons">
+                    <div className="header__nav__icons">
                         <button className="icon">
                             <img src={process.env.PUBLIC_URL + "/img/icons/home.svg"} alt="" />
                         </button>

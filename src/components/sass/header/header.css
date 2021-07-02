@@ -1,0 +1,72 @@
+.header nav {
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  background: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  z-index: 4;
+}
+
+.header nav .nav__center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 950px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header nav .nav__center a {
+  width: 100px;
+}
+
+.header nav .nav__center a img {
+  width: 100%;
+}
+
+.header nav .nav__center ul {
+  margin: 0 auto;
+}
+
+.header nav .nav__center ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  list-style: none;
+}
+
+.header nav .nav__center .header__nav__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header nav .nav__center .header__nav__icons .icon {
+  margin: 0 10px;
+  width: 22px;
+  background: none;
+  border: none;
+}
+
+.header nav .nav__center .header__nav__icons .icon img {
+  width: 100%;
+}
+
+.header nav .nav__center .header__nav__icons .icon.user img {
+  margin: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=header.css.map */

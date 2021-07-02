@@ -1,0 +1,38 @@
+@import "../../index.scss";
+
+.search{
+    position: relative;
+    width: 215px;
+    min-width: 125px;
+    height: 28px;
+
+    & input{
+        position: absolute;
+        padding: 0px 10px;
+        width: 215px;
+        min-width: 125px;
+        height: 28px;
+        background: rgb(247, 247, 247);
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    & &__info{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+
+        & span{
+            font-size: $fontSize;
+            color: rgb(122, 122, 122);
+
+            & img{
+                margin: 0 5px 3px 0;
+                width: 10px;
+            }
+        }
+    }
+}

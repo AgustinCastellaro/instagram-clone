@@ -1,0 +1,39 @@
+.userHistory {
+  margin: 0 7px;
+  width: 75px;
+  height: auto;
+}
+
+.userHistory button {
+  width: 75px;
+  border: none;
+  background: none;
+}
+
+.userHistory button .userHistory__image {
+  padding: 2px;
+  width: 100%;
+  border-radius: 100%;
+  background: #fcaf45;
+  background: linear-gradient(45deg, #fcaf45 0%, #e1306c 50%, #c13584 75%, #833ab4 100%);
+}
+
+.userHistory button .userHistory__image img {
+  padding: 2px;
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  border-radius: 100%;
+}
+
+.userHistory button .userHistory__name {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: 14px;
+  max-width: 75px;
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=UserHistory.css.map */

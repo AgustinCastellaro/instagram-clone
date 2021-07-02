@@ -1,5 +1,5 @@
 import React from 'react';
-import './ImagePub.css';
+import '../sass/publications/publication/image/Image.scss';
 
 function imagePub(props){
     return (

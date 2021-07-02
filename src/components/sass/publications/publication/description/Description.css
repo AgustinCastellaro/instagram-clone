@@ -1,0 +1,43 @@
+.description {
+  margin: 0 0;
+  padding: 0 15px 10px;
+  width: 100%;
+  text-align: start;
+}
+
+.description .description__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+
+.description .description__actions__action {
+  margin: 0 15px 0 0;
+  width: 25px;
+  border: none;
+  background: none;
+}
+
+.description .description__actions__action.save {
+  margin: 0 0 0 auto;
+}
+
+.description .description__actions__action img {
+  width: 100%;
+}
+
+.description .description__message .name {
+  font-size: 14px;
+  font-weight: bolder;
+  word-break: break-all;
+  color: #383838;
+}
+
+.description .description__message .message {
+  font-size: 14px;
+  word-break: break-all;
+  color: #383838;
+}
+/*# sourceMappingURL=Description.css.map */

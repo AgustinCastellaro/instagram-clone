@@ -1,14 +1,16 @@
 import React from 'react';
-import './UserHistory.css';
+import '../sass/histories/userHistory/UserHistory.scss';
 
 function UserHistory(props) {
     return (
         <div className="userHistory">
             <button>
-                <div className="image">
+                <div className="userHistory__image">
                     <img src={process.env.PUBLIC_URL + "/img/users/" + props.img} alt="" />
                 </div>
-                <div className="name">{props.name}</div>
+                <div className="userHistory__name">
+                    {props.name}
+                </div>
             </button>
         </div>
     )

@@ -1,0 +1,66 @@
+.histories {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 30px;
+  padding: 0 15px;
+  width: 600px;
+  height: 120px;
+  background: #fff;
+  border: 1px solid #cecece;
+  border-radius: 4px;
+}
+
+.histories button.scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  margin: 0 15px;
+  padding: 0;
+  width: 20px;
+  background: none;
+  border: none;
+}
+
+.histories button.scroll img {
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.histories button.scroll#scrollLeft {
+  left: 0;
+}
+
+.histories button.scroll#scrollRight {
+  right: 0;
+}
+
+.histories .histories__users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  overflow-x: scroll;
+}
+
+.histories .histories__users::-webkit-scrollbar {
+  height: 0;
+  background: #ccc;
+}
+
+.histories .histories__users::-webkit-scrollbar-thumb {
+  height: 2px;
+  background: #888888;
+}
+/*# sourceMappingURL=Histories.css.map */

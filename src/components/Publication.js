@@ -1,5 +1,5 @@
 import React from 'react';
-import './Publication.css';
+import './sass/publications/publication/Publication.scss';
 import HeaderPub from './publication/HeaderPub';
 import ImagePub from './publication/ImagePub';
 import InfoPub from './publication/InfoPub';

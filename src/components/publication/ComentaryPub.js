@@ -1,11 +1,13 @@
 import React from 'react';
-import './ComentaryPub.css';
+import '../sass/publications/publication/description/comentary/Comentary.scss';
 
 function comentaryPub() {
     return (
-        <div className="comentary__infoPublication">
-            <img src={process.env.PUBLIC_URL + "/img/icons/emoji.svg"} alt="" />
-            <textarea name="commentary" id="commentary" cols="30" rows="10" placeholder="Add a comment..." autoComplete="off" autoCorrect="off"></textarea>
+        <div className="comentary">
+            <button>
+                <img src={process.env.PUBLIC_URL + "/img/icons/emoji.svg"} alt="" />
+            </button>
+            <textarea name="commentary" id="commentary__textarea" cols="30" rows="10" placeholder="Add a comment..." autoComplete="off" autoCorrect="off"></textarea>
             <button className="public">Public</button>
         </div>
     )
