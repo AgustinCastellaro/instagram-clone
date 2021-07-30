@@ -4,7 +4,7 @@ import '../sass/options/user/User.scss';
 function User(props){
     return (
         <div className="user">
-            <img src={process.env.PUBLIC_URL + "/img/users/" + props.img} alt="" />
+            <img src={props.img} alt="" />
             <div className="user__name">
                 <span>{props.name}</span>
             </div>

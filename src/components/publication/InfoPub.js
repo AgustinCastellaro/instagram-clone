@@ -4,7 +4,6 @@ import Description from './DescriptionPub';
 import Comentary from './ComentaryPub';
 
 function infoPub(props) {
-    console.log(props)
     return (
         <div className="infoPublication">
             <div className="infoPublication__description">

@@ -2,7 +2,6 @@ import React from 'react';
 import '../sass/publications/publication/description/Description.scss';
 
 function descriptionPub(props){
-    console.log(props)
     return (
         <div className="description">
             <div className="description__actions">

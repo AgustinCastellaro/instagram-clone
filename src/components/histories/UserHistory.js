@@ -6,7 +6,7 @@ function UserHistory(props) {
         <div className="userHistory">
             <button>
                 <div className="userHistory__image">
-                    <img src={process.env.PUBLIC_URL + "/img/users/" + props.img} alt="" />
+                    <img src={props.img} alt="" />
                 </div>
                 <div className="userHistory__name">
                     {props.name}

@@ -4,7 +4,7 @@ import Histories from './components/Histories';
 import Publications from './components/Publications';
 import Options from './components/Options';
 
-function App() {
+function App() {  
   return (
     <div className="App">
       <Header />

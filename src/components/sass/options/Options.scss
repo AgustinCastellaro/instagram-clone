@@ -79,6 +79,19 @@
 
         &__users{
             width: 100%;
+            overflow: auto;
+            overflow-y: scroll;
+            height: 200px;
+            
+            &::-webkit-scrollbar{
+                width: 3px;
+            }
+
+            &::-webkit-scrollbar-thumb{
+                width: 3px;
+                border-radius: 20px;
+                background: #ccc;
+            }
         }
     }
 

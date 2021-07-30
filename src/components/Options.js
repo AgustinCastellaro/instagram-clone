@@ -1,8 +1,11 @@
 import React from 'react';
 import './sass/options/Options.scss';
 import User from './options/User';
+import Photos from '../photos/Photos';
 
 function options() {
+    let photosArray = Photos(10);
+
     return (
         <div className="options">
             <div className="options__profile">
@@ -19,10 +22,9 @@ function options() {
                     <button className="viewAll" id="viewAll">View all</button>
                 </div>
                 <div className="options__suggestions__users">
-                    <User img="IMG_id2.jpg" name="agus_castellaro" />
-                    <User img="IMG_id3.jpg" name="JSmith" /> 
-                    <User img="IMG_id4.jpg" name="juicy.orange40" /> 
-                    <User img="IMG_id5.jpg" name="AxSchwartz99" /> 
+                    {photosArray.map((url, i) => (
+                        <User key={i} img={url} name="agus_castellaro" />
+                    ))}
                 </div>
             </div>
             <div className="options__footer">
